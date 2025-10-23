@@ -3,7 +3,8 @@
 [![Deploy to GitHub Pages](https://github.com/Naseem7888/Personal-Portfolio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Naseem7888/Personal-Portfolio/actions/workflows/deploy-pages.yml)
 
 Live site (after Pages is enabled):
-- https://naseem7888.github.io/Personal-Portfolio/
+
+- <https://naseem7888.github.io/Personal-Portfolio/>
 
 A modern, responsive, and feature-rich portfolio website showcasing professional skills, experience, and projects. Built with cutting-edge web technologies and best practices.
 
