@@ -1299,6 +1299,17 @@ section {
     overflow: hidden;
 }
 
+/* Dark theme contrast for skill cards */
+[data-theme="dark"] .skill-category {
+    background: rgba(15, 23, 42, 0.78);
+    border-color: rgba(148, 163, 184, 0.18);
+    box-shadow: 0 14px 30px rgba(2, 6, 23, 0.4);
+}
+
+[data-theme="dark"] .skill-category:hover {
+    background: rgba(15, 23, 42, 0.86);
+}
+
 .skill-category::before {
     content: '';
     position: absolute;
@@ -1634,6 +1645,21 @@ section {
     position: relative;
 }
 
+/* Dark theme contrast for project cards */
+[data-theme="dark"] .project-card {
+    background: rgba(15, 23, 42, 0.78);
+    border-color: rgba(148, 163, 184, 0.18);
+    box-shadow: 0 20px 40px rgba(2, 6, 23, 0.45), 0 8px 16px rgba(2, 6, 23, 0.25);
+}
+
+[data-theme="dark"] .project-card:hover {
+    background: rgba(15, 23, 42, 0.86);
+}
+
+[data-theme="dark"] .project-link {
+    color: #cbd5e1;
+}
+
 .project-card::before {
     content: '';
     position: absolute;
@@ -1840,6 +1866,12 @@ section {
     color: var(--text-color);
 }
 
+/* Dark theme tweak for CTA card */
+[data-theme="dark"] .projects-cta {
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
 /* ===================================
    CONTACT SECTION
    ================================ */
@@ -1885,6 +1917,17 @@ section {
     transition: all var(--transition-normal);
     position: relative;
     overflow: hidden;
+}
+
+/* Dark theme contrast for contact cards */
+[data-theme="dark"] .contact-method {
+    background: rgba(15, 23, 42, 0.78);
+    border-color: rgba(148, 163, 184, 0.18);
+    box-shadow: 0 14px 30px rgba(2, 6, 23, 0.4);
+}
+
+[data-theme="dark"] .contact-method:hover {
+    background: rgba(15, 23, 42, 0.86);
 }
 
 .contact-method::before {
