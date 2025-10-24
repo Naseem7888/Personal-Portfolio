@@ -2767,3 +2767,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+
+/* Dark theme contrast improvements for info cards */
+[data-theme="dark"] .info-card {
+    background: rgba(15, 23, 42, 0.78); /* slate-900 with translucency */
+    border-color: rgba(148, 163, 184, 0.18); /* slate-400 at low alpha */
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.4);
+}
+
+[data-theme="dark"] .info-card:hover {
+    background: rgba(15, 23, 42, 0.86);
+}
+
+[data-theme="dark"] .info-header h4 {
+    color: var(--dark-color);
+}
+
+[data-theme="dark"] .info-item .label {
+    color: #cbd5e1; /* increase contrast for labels */
+}
+
+[data-theme="dark"] .info-item .value {
+    color: #e2e8f0; /* brighter value text for readability */
+}
