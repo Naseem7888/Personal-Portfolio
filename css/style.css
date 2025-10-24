@@ -1624,10 +1624,10 @@ section {
     background: rgba(255, 255, 255, 0.8);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    border-radius: var(--border-radius-xl);
+    border-radius: 22px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow: hidden;
-    box-shadow: var(--shadow-glass);
+    box-shadow: 0 20px 40px rgba(16, 24, 40, 0.12), 0 8px 16px rgba(16, 24, 40, 0.06);
     transition: all var(--transition-normal);
     opacity: 1;
     transform: scale(1);
@@ -1668,7 +1668,7 @@ section {
     position: relative;
     height: 200px;
     overflow: hidden;
-    background: var(--light-bg);
+    background: linear-gradient(135deg, rgba(99,102,241,0.18) 0%, rgba(236,72,153,0.12) 45%, rgba(56,189,248,0.12) 100%);
 }
 
 /* Safety: hide any accidental numeric badges inside project image */
@@ -1747,7 +1747,7 @@ section {
 }
 
 .project-content {
-    padding: var(--spacing-md);
+    padding: 1.25rem 1.25rem 1.35rem;
 }
 
 .project-meta {
@@ -1755,6 +1755,17 @@ section {
     justify-content: space-between;
     align-items: center;
     margin-bottom: var(--spacing-sm);
+}
+
+.project-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color var(--transition-normal);
+}
+
+.project-link:hover {
+    color: var(--primary-color);
 }
 
 .project-type {
@@ -1772,8 +1783,11 @@ section {
 }
 
 .project-content h3 {
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0.35rem;
     color: var(--dark-color);
+    font-size: 1.6rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
 }
 
 .project-content p {
