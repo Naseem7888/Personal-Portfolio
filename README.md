@@ -312,10 +312,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 **Support & Contact**
 
 **Naseem Akhtar**
-- 📧 Email: naseem@example.com
-- 💼 LinkedIn: [linkedin.com/in/naseemakhtar](https://linkedin.com/in/naseemakhtar)
-- 🐙 GitHub: [github.com/naseemakhtar](https://github.com/naseemakhtar)
-- 🐦 Twitter: [@naseemakhtar](https://twitter.com/naseemakhtar)
+- 📧 Email: naseem.akhtar.yq@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/naseemakhtar](https://www.linkedin.com/in/naseem7888/)
+- 🐙 GitHub: [github.com/naseemakhtar](https://github.com/Naseem7888)
 
 ---
 
@@ -333,7 +332,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **⭐ If you found this helpful, please give it a star!**
 
-Made with ❤️ by [Naseem Akhtar](https://github.com/naseemakhtar)
+Made with ❤️ by [Naseem Akhtar](https://github.com/Naseem7888)
 
 **Built with Modern Web Technologies • Fully Responsive • Performance Optimized**
 
